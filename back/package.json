@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "Repositorio utilizado para la creacion de una aplicacion de gestion de inventario",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,20 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/J4dysIG/Proyecto-NovaHardware/issues"
   },
-  "homepage": "https://github.com/J4dysIG/Proyecto-NovaHardware#readme",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "pg": "^8.20.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "homepage": "https://github.com/J4dysIG/Proyecto-NovaHardware#readme"
 }

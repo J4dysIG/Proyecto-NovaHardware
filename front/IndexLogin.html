@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="InicioDeSesion" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <title>NovaHardware</title>
+    <link rel="stylesheet" href="/front/login.css">
 </head>
 <body>
     <div class="contenedor-principal">
@@ -14,20 +14,20 @@
             <div class="encabezado-azul">
                 <h2>NovaHardware</h2>
             </div>
-            <form class="cuerpo-formulario">
+            <form class="cuerpo-formulario" id="loginForm"> 
                 <div class="campo-entrada">
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Correo Empresarial">
+                    <input type="text" placeholder="Correo Empresarial" id="input-correo"> 
                 </div>
                 <div class="campo-entrada">
                     <i class="fa-solid fa-shield-halved"></i>
-                    <input type="password" placeholder="Contraseña">
+                    <input type="password" placeholder="Contraseña" id="input-password"> 
                 </div>
                 <button type="submit" class="boton-iniciar">Iniciar Sesion</button>
-                <button type="button" class="boton-crear">Registrar</button>
+                <button type="button" id="boton-crear" class="boton-crear">Registrar</button>
             </form>
         </div>
     </div>
 </body>
-<script src="script.js" alt="anonymous"></script>
+<script src="/front/script.js" alt="anonymous"></script>
 </html>
