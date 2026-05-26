@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="registro-container">
+        <div class="panel-izquierdo"></div>
+
+        <div class="tarjeta-login">
+            <div class="encabezado-azul">
+                <h2>NovaHardware</h2>
+            </div>
+
+            <form action="/users/registro" class="cuerpo-formulario" method="POST">
+                <div class="campo-entrada">
+                    <input type="text" name="nombre" placeholder="Nombre Completo" required>
+                </div>
+                <div class="campo-entrada">
+                    <input type="email" name="correo" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="campo-entrada">
+                    <input type="password" name="contrasena" placeholder="Contraseña" required>
+                </div>
+                <div class="campo-entrada">
+                    <input type="password" name="confirmar-contrasena" placeholder="Confirmar Contraseña" required>
+                </div>
+                <button type="submit" class="boton-registrar">REGISTRAR</button>
+            </form>
+
+            <div class="pie-formulario">
+                <a href="/users/login" class="boton-volver">¿Ya tienes una cuenta? Inicia Sesión</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

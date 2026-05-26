@@ -1,0 +1,107 @@
+:root {
+    --azul-cabecera: #2589fa;
+    --azul-boton: #2c4057;
+    --fondo-tarjeta: #d9d9d9;
+    --borde-input: #888888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Fondo de pantalla completa */
+.registro-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.panel-izquierdo {
+    flex: 1;
+    background-color: #2c5381;
+}
+
+/* Tarjeta centrada */
+.tarjeta-login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    background-color: var(--fondo-tarjeta);
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.encabezado-azul {
+    background-color: var(--azul-cabecera);
+    padding: 20px;
+    text-align: center;
+}
+
+.encabezado-azul h2 {
+    color: white;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/* Formulario */
+.cuerpo-formulario {
+    padding: 30px 35px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.campo-entrada input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 30px;
+    border: 1px solid var(--borde-input);
+    background-color: white;
+    font-size: 15px;
+    outline: none;
+}
+
+.boton-registrar {
+    background-color: var(--azul-boton);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 6px;
+}
+
+.boton-registrar:hover { background-color: #1a2e42; }
+
+/* Pie */
+.pie-formulario {
+    padding: 16px 35px 28px;
+    text-align: center;
+}
+
+.boton-volver {
+    color: #000;
+    padding: 10px 18px;
+    border: 1px solid var(--borde-input);
+    border-radius: 30px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton-volver:hover { background-color: rgba(0,0,0,0.05); }
