@@ -1,12 +1,12 @@
 ## **Proyecto-NovaHardware.**
 
-## información del Producto.
+## Información del Producto.
 
-*Nombre del Producto:* NovaHardware.
+**Nombre del Producto:** *NovaHardware.*
 
-*Descripción:* Aplicacio dedicada a la gestion de inventario.
+**Descripción:** *Aplicacio dedicada a la gestion de inventario.*
 
-##Integrantes del Equipo
+## Integrantes del Equipo
 
 * *Barraza Chavez Diego Alejandro*
 * *Barreras Castro María José*
@@ -17,8 +17,13 @@
 
 # **1.Introduccion.**  
   
-*Descripción general:* NovaHardware Es una aplicación de gestión de inventario inteligente orientada a digitalizar pequeños y medianos negocios de hardware (proveedores de suministros industriales y tiendas de componentes de computación). Su objetivo principal es eliminar el error humano y la falta de stock mediante la automatización y el análisis de datos en tiempo real. La empresa se diferencia por ofrecer una interfaz limpia y robusta, capaz de procesar miles de SKUs (códigos de artículo) sin complicaciones técnicas.
+**Descripción general:** NovaHardware Es una plataforma digital de gestión de inventario inteligente orientada a el manejo de pequeños y medianos negocios de hardware (Componentes de computación). Su objetivo principal es eliminar el error humano y la falta de stock mediante la automatización y el análisis de datos en tiempo real. La empresa se diferencia por ofrecer una interfaz limpia y robusta, capaz de procesar miles de SKUs (códigos de artículo) sin complicaciones técnicas.
   
-*Audiencia:* Clientes finales, administradores del sitio, equipo de desarrollo y soporte técnico.  
+**Audiencia:** Clientes finales, administradores del sitio, equipo de desarrollo y soporte técnico.  
   
-**Cobertura o alcance:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los ususarios, cuenta con una administracion eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
+**Cobertura** El sistema logra cubrir las necesidades del registro e inicio de sesión para los ususarios, cuenta con una administracion eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
+
+# **2.Resumen del Sistema**
+
+**Objetivo general:** Desarrollar una plataforma digital de gestor de inventario para la empresa NovaHardware proporcionando una interfaz intuitiva, eficaz y moderna, logrando asi transacciones ágiles y un seguimiento preciso posicionando a la empresa como un referente de modernidad y fiabilidad.
+
