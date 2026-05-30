@@ -1,2 +1,24 @@
-# Proyecto-NovaHardware
-Repositorio utilizado para la creacion de una aplicacion de gestion de inventario
+## **Proyecto-NovaHardware.**
+
+## información del Producto.
+
+*Nombre del Producto:* NovaHardware.
+
+*Descripción:* Aplicacio dedicada a la gestion de inventario.
+
+##Integrantes del Equipo
+
+* *Barraza Chavez Diego Alejandro*
+* *Barreras Castro María José*
+* *Calleros Valdenegro José Adrián*
+* *Gonzales Aguilar Natalia Berenice*
+* *Inzunza Gomez Jesus Daniel*
+* *Urias Ruiz Ernesto*
+
+# **1.Introduccion.**  
+  
+*Descripción general:* NovaHardware Es una aplicación de gestión de inventario inteligente orientada a digitalizar pequeños y medianos negocios de hardware (proveedores de suministros industriales y tiendas de componentes de computación). Su objetivo principal es eliminar el error humano y la falta de stock mediante la automatización y el análisis de datos en tiempo real. La empresa se diferencia por ofrecer una interfaz limpia y robusta, capaz de procesar miles de SKUs (códigos de artículo) sin complicaciones técnicas.
+  
+*Audiencia:* Clientes finales, administradores del sitio, equipo de desarrollo y soporte técnico.  
+  
+**Cobertura o alcance:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los ususarios, cuenta con una administracion eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
