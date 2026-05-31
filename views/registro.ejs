@@ -13,6 +13,11 @@
         <div class="tarjeta-login">
             <div class="encabezado-azul">
                 <h2>NovaHardware</h2>
+                <ul>    
+                    <% if(typeof errors !== 'undefined') { %>
+                     <li><%= errors.message %></li>
+                    <% } %>
+                </ul>
             </div>
 
             <form action="/users/registro" class="cuerpo-formulario" method="POST">
