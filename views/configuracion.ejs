@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos a Proveedores - NovaHardware</title>
+   <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/modulo.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+
+
+<div class="app-layout">
+<aside class="sidebar" role="navigation" aria-label="Menú principal">
+            <div class="sidebar-brand">
+                <div class="brand-logo">💎</div>
+                <span class="brand-name">Nova<span>HW</span></span>
+            </div>
+            <p class="nav-section-label">Navegación</p>
+             <nav class="sidebar-nav">
+                <a href="/users/inventario" class="nav-item"> <span class="nav-icon">📦</span>Inventario</a>
+                <a href="/users/pedidos" class="nav-item active"> <span class="nav-icon">🛒</span>Pedidos</a>
+                <a href="/users/ventas" class="nav-item"><span class="nav-icon">🛒</span>Ventas</a>
+
+                <div class="nav-divider"></div>
+                <p class="nav-section-label">Análisis</p>
+                <a href="/users/usuarios" class="nav-item"><span class="nav-icon">👥</span>Usuarios</a>
+                <a href="/users/reportes" class="nav-item"><span class="nav-icon">📊</span>Reportes</a>
+                <a href="/users/configuracion" class="nav-item"><span class="nav-icon">⚙️</span>Configuración</a>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="btn-logout" class="btn-logout"  onclick="window.location.href='/users/logout'">
+                    <span class="nav-icon">🚪</span>Cerrar Sesión
+                </button>
+            </div>
+        </aside>
+
+        <main class="dashboard-content">
+
+            <header class="main-header">
+                <div class="header-left">
+                    <h2>Configuración del Sistema</h2>
+                    <p class="breadcrumb"> Configuracion </p>
+                </div>
+<div class="header-right">
+                        <div class="header-search">
+                            <span class="search-icon">🔍</span>
+                            <input type="search" placeholder="Buscar en el sistema…" aria-label="Buscar" />
+                        </div>
+                        <button class="btn-icon" aria-label="Notificaciones">🔔<span class="notif-dot"></span></button>
+                        <button class="btn-icon" aria-label="Tema">🌙</button>
+                        <div class="user-avatar">AD</div>
+                </div>
+            </header>
+
+            <div style="max-width: 800px;">
+    <div class="inventory-card" style="padding: 30px;">
+        <h3 style="margin-bottom: 20px;">Configuración General</h3>
+        
+        <form style="display: grid; gap: 20px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <label style="display:block; font-size:12px; font-weight:600; color:#64748b; margin-bottom:8px;">Nombre del Negocio</label>
+                    <input type="text" value="NovaHardware S.A." style="width:100%; padding:10px; border:1px solid #e2e8f0; border-radius:8px;">
+                </div>
+                <div>
+                    <label style="display:block; font-size:12px; font-weight:600; color:#64748b; margin-bottom:8px;">Impuesto (%)</label>
+                    <input type="number" value="16" style="width:100%; padding:10px; border:1px solid #e2e8f0; border-radius:8px;">
+                </div>
+            </div>
+
+            <div>
+                <label style="display:block; font-size:12px; font-weight:600; color:#64748b; margin-bottom:8px;">Moneda del Sistema</label>
+                <select style="width:100%; padding:10px; border:1px solid #e2e8f0; border-radius:8px;">
+                    <option value="usd">USD - Dólar Estadounidense</option>
+                    <option value="mxn">MXN - Peso Mexicano</option>
+                    <option value="eur">EUR - Euro</option>
+                </select>
+            </div>
+
+            <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; margin-top: 10px;">
+                <button type="button" class="btn btn-primary" onclick="alert('Configuración guardada')">Guardar Cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</main>
+</div>
+
+
+</body>
+</html>

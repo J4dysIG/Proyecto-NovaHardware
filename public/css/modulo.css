@@ -1,0 +1,303 @@
+/* Utilidades compartidas para los módulos */
+.module-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inventory-controls {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pos-inputs {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.pos-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--bg-light);
+    border-radius: 8px;
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+}
+
+/* Toggle Switch (Interruptor UI) */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: var(--success-green);
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+/* ==========================================================================
+   MÓDULO DE INVENTARIO (Estilos Avanzados)
+   ========================================================================== */
+
+/* Barra superior de herramientas */
+.inventory-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Caja de búsqueda moderna */
+.search-box {
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 12px 16px 12px 45px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: var(--color-primary, #4f46e5);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.search-box .search-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #94a3b8;
+}
+
+/* Botón Principal "+ Nuevo Producto" */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: none;
+    font-family: inherit;
+}
+
+.btn-primary {
+    background-color: var(--color-primary, #4f46e5);
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1);
+    transform: translateY(-1px);
+}
+
+/* Estructura de la Tarjeta del Listado */
+.inventory-card {
+    background: #ffffff;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.inventory-card .card-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid #e2e8f0;
+    background-color: #fafafa;
+}
+
+.inventory-card .card-header h3 {
+    margin: 10px;
+    font-size: 16px;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+/* Tabla de Inventario */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 14px;
+}
+
+.inventory-table th {
+    background-color: #f8fafc;
+    color: #64748b;
+    padding: 16px 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.inventory-table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+    vertical-align: middle;
+}
+
+.inventory-table tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Badges y Etiquetas Visuales */
+.badge-code {
+    background-color: #f1f5f9;
+    color: #475569;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.stock-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.stock-in {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.stock-low {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
+
+/* Botones de Acción (Editar, Eliminar, Stock) */
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.btn-action {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    background: transparent;
+}
+
+.btn-stock {
+    background-color: #f0fdfa;
+    color: #0d9488;
+    border-color: #ccfbf1;
+}
+
+.btn-stock:hover {
+    background-color: #0d9488;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #fef9c3;
+    color: #854d0e;
+    border-color: #fef08a;
+}
+
+.btn-edit:hover {
+    background-color: #854d0e;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #fff5f5;
+    color: #e53e3e;
+    border-color: #fed7d7;
+    padding: 8px 10px;
+}
+
+.btn-delete:hover {
+    background-color: #e53e3e;
+    color: white;
+}

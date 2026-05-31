@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usuarios</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+   <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/modulo.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+
+
+    <div class="app-layout">
+
+        <aside class="sidebar" role="navigation" aria-label="Menú principal">
+            <div class="sidebar-brand">
+                <div class="brand-logo">💎</div>
+                <span class="brand-name">Nova<span>HW</span></span>
+            </div>
+            <p class="nav-section-label">Navegación</p>
+             <nav class="sidebar-nav">
+                <a href="/users/inventario" class="nav-item"> <span class="nav-icon">📦</span>Inventario</a>
+                <a href="/users/pedidos" class="nav-item active"> <span class="nav-icon">🛒</span>Pedidos</a>
+                <a href="/users/ventas" class="nav-item"><span class="nav-icon">🛒</span>Ventas</a>
+
+                <div class="nav-divider"></div>
+                <p class="nav-section-label">Análisis</p>
+                <a href="/users/usuarios" class="nav-item"><span class="nav-icon">👥</span>Usuarios</a>
+                <a href="/users/reportes" class="nav-item"><span class="nav-icon">📊</span>Reportes</a>
+                <a href="/users/configuracion" class="nav-item"><span class="nav-icon">⚙️</span>Configuración</a>
+            </nav>
+            <div class="sidebar-footer">
+                <button id="btn-logout" class="btn-logout"  onclick="window.location.href='/users/logout'">
+                    <span class="nav-icon">🚪</span>Cerrar Sesión
+                </button>
+            </div>
+        </aside>
+
+        <main class="dashboard-content">
+
+            <header class="main-header">
+                <div class="header-left">
+                    <h2>Gestión de Usuarios</h2>
+                    <p class="breadcrumb">Configuración / Personal y Accesos</p>
+                </div>
+                <button class="btn btn-primary" id="btn-add-user">+ Nuevo Usuario</button>
+            </header>
+
+            <div class="inventory-card">
+                <table class="inventory-table">
+                    <thead>
+                        <tr>
+                            <th>Usuario</th>
+                            <th>Email</th>
+                            <th>Rol</th>
+                            <th>Estado</th>
+                            <th>Última Conexión</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div style="display:flex; align-items:center; gap:10px;">
+                                    <div class="user-avatar">AD</div> <strong>Admin Nova</strong>
+                                </div>
+                            </td>
+                            <td>admin@novahw.com</td>
+                            <td><span class="status-badge"
+                                    style="background:#e0e7ff; color:#4338ca;">Administrador</span></td>
+                            <td><span class="status-badge status-active">Activo</span></td>
+                            <td>Hoy, 10:45 AM</td>
+                            <td><button class="btn-icon">✏️</button> <button class="btn-icon">🚫</button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="display:flex; align-items:center; gap:10px;">
+                                    <div class="user-avatar" style="background:#f59e0b;">JV</div> <strong>Juan
+                                        Vendedor</strong>
+                                </div>
+                            </td>
+                            <td>juan.v@novahw.com</td>
+                            <td><span class="status-badge" style="background:#fef3c7; color:#92400e;">Vendedor</span>
+                            </td>
+                            <td><span class="status-badge status-active">Activo</span></td>
+                            <td>Ayer, 06:12 PM</td>
+                            <td><button class="btn-icon">✏️</button> <button class="btn-icon">🚫</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </main>
+    </div>
+
+</body>
+
+</html>

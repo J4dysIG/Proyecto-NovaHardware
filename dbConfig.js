@@ -1,4 +1,5 @@
 require('dotenv').config();
+// ── Configuración de la base de datos (no we no es ia asi me lo da el vs code) jeje───────────────────────────────────────────────────────────────
 
 const { Pool } = require("pg");
 const isProduction = process.env.NODE_ENV === 'production';
