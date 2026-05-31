@@ -43,17 +43,15 @@
 
 **Arquitectura del diseño:** 
 
-**Capa de presentación:**
-* HTML
-* CSS
-* JavaScript  
+* **Capa de presentación:**
+*HTML, CSS, JavaScript*
 **Capa de aplicación:**
-* HTML
-* CSS
-* JavaScript
-* **Capa de datos:** MongoDB (NoSQL) con Mongoose  
+* *
+* **Capa de datos:**
+*Postgresql, Node Js*
 
 **Diagrama de arquitectura:**
+###### FOTO 
 
 # **3. Requisitos**
 **Funcionales:**    
@@ -83,10 +81,10 @@
 
 **Técnicos:**  
 
-* **Lenguajes:**  Javascript, HML y CSS.
-* **Frameworks/Librerías**: Express.js, Bootstrap, Mongoose, bcryptjs, dotenv  
-* **Base de datos:** MongoDB 6.0  
-* **Herramientas:** Figma (prototipado), GitHub (control de versiones), VS Code  
+* **Lenguajes:**  *Javascript, HML y CSS.*
+* **Frameworks/Librerías**: PG, Nodemon, Express.js
+* **Base de datos:** *Postgresql, Node Js*
+* **Herramientas:** *Figma, GitHub, VS Code* 
 
   
 **Arquitectura del Sistema**
