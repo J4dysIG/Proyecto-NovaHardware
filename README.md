@@ -4,7 +4,7 @@
 
 **Nombre del Producto:** *NovaHardware.*
 
-**Descripción:** *Aplicacio dedicada a la gestion de inventario.*
+**Descripción:** *Aplicación dedicada a la gestión de inventario.*
 
 ## Integrantes del Equipo
 
@@ -21,7 +21,7 @@
   
 **Audiencia:** Clientes finales, administradores del sitio, equipo de desarrollo y soporte técnico.  
   
-**Cobertura:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los ususarios, cuenta con una administracion eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
+**Cobertura:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los ususarios, cuenta con una administración eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
 
 # **2.Resumen del Sistema**
 
@@ -46,7 +46,7 @@
 * **Capa de presentación:**
 *HTML, CSS, JavaScript*
 **Capa de aplicación:**
-* *
+* *Node.js, Express
 * **Capa de datos:**
 *Postgresql, Node Js*
 
@@ -56,10 +56,10 @@
 # **3. Requisitos**
 **Funcionales:**    
 * El sistema debera permitir a los ususarios iniciar sesión ingresando su id y contraseña, validandolos en la base de datos.
-* El sistema debe permitir la creacion de nuevos perfiles al proporcionar datos como nombre, correo electronico y contraseña.
+* El sistema debe permitir la creacion de nuevos perfiles.
 * El sistema debe validar en tiempo real que el formato de las credenciales sea valido y que los campos no esten vacios antes de enviar la solicitud al servidor.
 * El sistema debe de notificar al usuario mediante un mensaje un error claro cuando las credenciales sean incorrectas.
-* El  sistema debera de contar con un menú capaz de mostrar u ocultar opciones según los permisos del usuario.
+* El sistema debera de contar con un menú capaz de mostrar u ocultar opciones según los permisos del usuario.
 * El sistema debera integrar una barra de búsqueda rápida para localizar módulos específicos sin navegar por submenús.
 * El sitema debera contar con un acceso visible para gestionar la cuenta del usuario y salir del sistema de forma segura.
 * El sistema debera contar con un catalogo de los prudctos de forma detallada.
