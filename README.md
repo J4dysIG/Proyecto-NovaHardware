@@ -43,12 +43,52 @@
 
 **Arquitectura del diseño:** 
 
+**Capa de presentación:**
+* HTML
+* CSS
+* JavaScript  
+**Capa de aplicación:**
+* HTML
+* CSS
+* JavaScript
+* **Capa de datos:** MongoDB (NoSQL) con Mongoose  
+
 **Diagrama de arquitectura:**
 
 # **3. Requisitos**
 **Funcionales:**    
+* El sistema debera permitir a los ususarios iniciar sesión ingresando su id y contraseña, validandolos en la base de datos.
+* El sistema debe permitir la creacion de nuevos perfiles al proporcionar datos como nombre, correo electronico y contraseña.
+* El sistema debe validar en tiempo real que el formato de las credenciales sea valido y que los campos no esten vacios antes de enviar la solicitud al servidor.
+* El sistema debe de notificar al usuario mediante un mensaje un error claro cuando las credenciales sean incorrectas.
+* El  sistema debera de contar con un menú capaz de mostrar u ocultar opciones según los permisos del usuario.
+* El sistema debera integrar una barra de búsqueda rápida para localizar módulos específicos sin navegar por submenús.
+* El sitema debera contar con un acceso visible para gestionar la cuenta del usuario y salir del sistema de forma segura.
+* El sistema debera contar con un catalogo de los prudctos de forma detallada.
+* El sistema debe alertar cuando un articulo tenga poco stock.
+* El sistema deberá de ter botones para finalizar venta.
+* El sistema deberá de dejar poner el método de pago.
+* El sistema permitirá visualizar la lista de pedidos registrados, mostrando información como número de pedido, proveedor, fecha y estado del pedido.
+* El sistema permitirá modificar la información de un pedido siempre que este no haya sido marcado como recibido.
+* El sistema permitirá registrar nuevos pedidos de componentes a proveedores, almacenando información como proveedor, fecha del pedido, productos solicitados y cantidades.
+
+
 **No funcionales:**  
+* El sistema debe estar disponible 24/7
+* El sistema debe ser compatible con cualquier sistema operativo y/o dispositivo disponible.
+* El sistema no puede tardar mas de 3 segundos en dar respuesta a un proceso en condiciones normales de este.
+* El sistema debe tener un diseño completamente intuitivo e inclusivo para una mejor expriencia del usuario.
+* El sistema deberá permitir la incorporación de nuevos productos o proveedores sin afectar el funcionamiento del módulo.
+* El sistema debe contar con un sistema de seguridad basado en roles.
+
 **Técnicos:**  
+
+* **Lenguajes:**  Javascript, HML y CSS.
+* **Frameworks/Librerías**: Express.js, Bootstrap, Mongoose, bcryptjs, dotenv  
+* **Base de datos:** MongoDB 6.0  
+* **Herramientas:** Figma (prototipado), GitHub (control de versiones), VS Code  
+
+  
 **Arquitectura del Sistema**
 
 # **4. Diagramas de Casos de Uso**
