@@ -1,7 +1,8 @@
 :root {
-    --azul-cabecera: #2589fa;
-    --azul-boton: #2c4057;
-    --fondo-tarjeta: #d9d9d9;
+    --azul-oscuro-barra: #2c5381; /* Color de la cabecera */
+    --azul-boton: #1e3a5a;        /* Color del botón principal */
+    --fondo-tarjeta: #d9d9d9;     /* Gris de la tarjeta */
+    --fondo-derecho: #f0f0f2;     /* Gris muy claro del fondo derecho */
     --borde-input: #888888;
 }
 
@@ -9,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'arial', Times, serif; /* Tipografía*/
 }
 
 body, html {
@@ -18,20 +19,24 @@ body, html {
     overflow: hidden;
 }
 
-/* Fondo de pantalla completa */
-.registro-container {
+.contenedor-principal {
     display: flex;
     height: 100vh;
     width: 100vw;
     position: relative;
 }
 
+/* Fondos divididos */
 .panel-izquierdo {
-    flex: 1;
+    flex: 100; 
+background-image: url('/images/Fondo_Inicio.png');
     background-color: #2c5381;
+    background-size: cover;
+    background-position: center;
 }
 
-/* Tarjeta centrada */
+
+/* Tarjeta Flotante */
 .tarjeta-login {
     position: absolute;
     top: 50%;
@@ -44,8 +49,9 @@ body, html {
     overflow: hidden;
 }
 
+/* Cabecera de la tarjeta */
 .encabezado-azul {
-    background-color: var(--azul-cabecera);
+    background-color: var(--azul-oscuro-barra);
     padding: 20px;
     text-align: center;
 }
@@ -58,50 +64,59 @@ body, html {
 
 /* Formulario */
 .cuerpo-formulario {
-    padding: 30px 35px 10px;
+    padding: 40px 35px;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 18px;
+}
+
+.campo-entrada {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.campo-entrada i {
+    position: absolute;
+    left: 15px;
+    color: #2c5381;
+    font-size: 20px;
 }
 
 .campo-entrada input {
     width: 100%;
-    padding: 12px 15px;
-    border-radius: 30px;
+    padding: 12px 15px 12px 45px;
+    border-radius: 30px; 
     border: 1px solid var(--borde-input);
-    background-color: white;
+    background-color: transparent;
     font-size: 15px;
     outline: none;
 }
 
-.boton-registrar {
+/* Botones */
+.boton-iniciar {
     background-color: var(--azul-boton);
     color: white;
     padding: 14px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 6px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
-.boton-registrar:hover { background-color: #1a2e42; }
-
-/* Pie */
-.pie-formulario {
-    padding: 16px 35px 28px;
-    text-align: center;
-}
-
-.boton-volver {
-    color: #000;
-    padding: 10px 18px;
+.boton-crear {
+    background-color: transparent;
+    color: #000000;
+    padding: 10px;
     border: 1px solid var(--borde-input);
     border-radius: 30px;
+    cursor: pointer;
     font-size: 14px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
 }
 
-.boton-volver:hover { background-color: rgba(0,0,0,0.05); }
+.boton-iniciar:hover { background-color: #152940; }
+.boton-crear:hover { background-color: rgba(0,0,0,0.05); }

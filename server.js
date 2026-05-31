@@ -18,12 +18,11 @@ const app = express();
 const { pool } = require('./dbConfig');
 const path = require('path');
 const PORT = process.env.PORT || 4000;
-
-app.set('views', path.join(__dirname, 'views'));
+app.use(express.static('public'));
 
 app.set('view engine', 'ejs'); // Configura EJS como el motor de plantillas
 app.use(express.urlencoded({ extended: false })); // Middleware para parsear el cuerpo de las solicitudes
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'views'))); // Sirve archivos estáticos desde la carpeta 'views'
 
 app.get('/', (req, res) => {
     res.render('index'); //para renderizar el archivo Index.ejs
@@ -42,19 +41,20 @@ app.get('/users/dashboard', (req, res) => {
 });
 
 app.post('/users/registro', async (req, res) => {
-   let { nombre, correo, password_hash } = req.body;
+  let { nombre, correo, contrasena, contrasena2 } = req.body;
+    const password_hash = contrasena;
    console.log(`Datos recibidos: Name=${nombre}, Email=${correo}, Password=${password_hash}`);
 
    let errors = [];
 
-   if (!nombre || !correo || !password_hash || !password_hash2 ) {
+   if (!nombre || !correo || !contrasena || !contrasena2) {
        errors.push('Por favor, complete todos los campos');
    }
 
-   if (password_hash !== password_hash2) {
+   if (contrasena !== contrasena2) {
        errors.push('Las contraseñas no coinciden');
 
-    if (password_hash.length < 15) {
+    if (contrasena.length < 15) {
         errors.push('La contraseña debe tener al menos 15 caracteres');
     }
     
