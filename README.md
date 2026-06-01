@@ -12,7 +12,7 @@
 * *Barreras Castro María José*
 * *Calleros Valdenegro José Adrián*
 * *Gonzales Aguilar Natalia Berenice*
-* *Inzunza Gomez Jesus Daniel*
+* *Inzunza Gómez Jesús Daniel*
 * *Urias Ruiz Ernesto*
 
 # **1.Introduccion.**  
@@ -21,24 +21,24 @@
   
 **Audiencia:** Clientes finales, administradores del sitio, equipo de desarrollo y soporte técnico.  
   
-**Cobertura:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los ususarios, cuenta con una administración eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
+**Cobertura:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los usuarios, cuenta con una administración eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
 
 # **2.Resumen del Sistema**
 
-**Objetivo general:** Desarrollar una plataforma digital de gestor de inventario para la empresa NovaHardware proporcionando una interfaz intuitiva, eficaz y moderna, logrando asi transacciones ágiles y un seguimiento preciso posicionando a la empresa como un referente de modernidad y fiabilidad.
+**Objetivo general:** Desarrollar una plataforma digital de gestor de inventario para la empresa NovaHardware proporcionando una interfaz intuitiva, eficaz y moderna, logrando así transacciones ágiles y un seguimiento preciso posicionando a la empresa como un referente de modernidad y fiabilidad.
 
 **Funcionalidades principales:** 
 
 * Registro/Login de usuarios
 * Reportes en Tiempo Real
 * Inventario de Componentes
-* Alertas de Bajo Stock Automaticas
-* Gestion de Pedidos Unificados
+* Alertas de Bajo Stock Automáticas
+* Gestión de Pedidos Unificados
 * Apartado de Ventas
-* Gestion de Usuarios
+* Gestión de Usuarios
 * Carrito de Compras 
-* Notificacciones automáticas
-* Configuracion del Sistema
+* Notificaciones automáticas
+* Configuración del Sistema
 * Cierre de Sesión 
 
 **Arquitectura del diseño:** 
@@ -55,15 +55,15 @@
 
 # **3. Requisitos**
 **Funcionales:**    
-* El sistema debera permitir a los ususarios iniciar sesión ingresando su id y contraseña, validandolos en la base de datos.
-* El sistema debe permitir la creacion de nuevos perfiles.
-* El sistema debe validar en tiempo real que el formato de las credenciales sea valido y que los campos no esten vacios antes de enviar la solicitud al servidor.
+* El sistema deberá permitir a los usuarios iniciar sesión ingresando su id y contraseña, validándolos en la base de datos.
+* El sistema debe permitir la creación de nuevos perfiles.
+* El sistema debe validar en tiempo real que el formato de las credenciales sea valido y que los campos no estén vacíos antes de enviar la solicitud al servidor.
 * El sistema debe de notificar al usuario mediante un mensaje un error claro cuando las credenciales sean incorrectas.
-* El sistema debera de contar con un menú capaz de mostrar u ocultar opciones según los permisos del usuario.
-* El sistema debera integrar una barra de búsqueda rápida para localizar módulos específicos sin navegar por submenús.
-* El sitema debera contar con un acceso visible para gestionar la cuenta del usuario y salir del sistema de forma segura.
-* El sistema debera contar con un catalogo de los prudctos de forma detallada.
-* El sistema debe alertar cuando un articulo tenga poco stock.
+* El sistema deberá de contar con un menú capaz de mostrar u ocultar opciones según los permisos del usuario.
+* El sistema deberá integrar una barra de búsqueda rápida para localizar módulos específicos sin navegar por submenús.
+* El sistema deberá contar con un acceso visible para gestionar la cuenta del usuario y salir del sistema de forma segura.
+* El sistema deberá contar con un catálogo de los pruductos de forma detallada.
+* El sistema debe alertar cuando un artículo tenga poco stock.
 * El sistema deberá de ter botones para finalizar venta.
 * El sistema deberá de dejar poner el método de pago.
 * El sistema permitirá visualizar la lista de pedidos registrados, mostrando información como número de pedido, proveedor, fecha y estado del pedido.
@@ -74,8 +74,8 @@
 **No funcionales:**  
 * El sistema debe estar disponible 24/7
 * El sistema debe ser compatible con cualquier sistema operativo y/o dispositivo disponible.
-* El sistema no puede tardar mas de 3 segundos en dar respuesta a un proceso en condiciones normales de este.
-* El sistema debe tener un diseño completamente intuitivo e inclusivo para una mejor expriencia del usuario.
+* El sistema no puede tardar más de 3 segundos en dar respuesta a un proceso en condiciones normales de este.
+* El sistema debe tener un diseño completamente intuitivo e inclusivo para una mejor experiencia del usuario.
 * El sistema deberá permitir la incorporación de nuevos productos o proveedores sin afectar el funcionamiento del módulo.
 * El sistema debe contar con un sistema de seguridad basado en roles.
 
