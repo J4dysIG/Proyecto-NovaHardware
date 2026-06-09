@@ -91,13 +91,29 @@
 
 # **4. Diagramas de Casos de Uso**
 *Inicio de Sesión*
-![](
-*Gestion de Catalago*
-![](
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20173745.png)
+
+*Gestion de Catálago*
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20173752.png)
+
 *Edición de perfiles*
+
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/Captura%20de%20pantalla%202026-06-08%20173802.png)
 
 # **5. Descripción de Casos de Uso**
+*Inicio de Sesión*
+
+![](
+
+*Gestion de catálogo*
+
+![](
+
+*Edición de perfiles*
+
+![](
 
 # **6. Diagrama Entidad-Relación**
 
