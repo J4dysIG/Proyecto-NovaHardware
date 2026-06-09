@@ -105,15 +105,11 @@
 # **5. Descripción de Casos de Uso**
 *Inicio de Sesión*
 
-![](
-
-*Gestion de catálogo*
-
-![](
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20173910.png)
 
 *Edición de perfiles*
 
-![](
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20173843.png)
 
 # **6. Diagrama Entidad-Relación**
 
@@ -151,115 +147,86 @@
 
 
 # **5. Uso del Sistema**
-*Guía detallada para usuarios*
+**Guía detallada para Administradores**
 
-Paso 1: Ingresar al sitio web
+ **Paso 1: Ingresar al sitio web**
+* Abre el navegador y escribe la URL del sitio web.
+* Podras observar la pagina de inicio, donde te pedira Registrarte o Iniciar sesión segun sea tu caso.
 
-Abre el navegador y escribe la URL del sitio web de Lugavi MX.
+**Paso 2: Inicio de sesión**
+  * En la página principal, haga clic en “Iniciar sesión”.
+  * Complete lo pedido.
 
-https://lugavi-mx.github.io/Web/
-Verás la página de inicio con opciones para iniciar sesión o registrarte.
-Paso 2: Registro de nuevo usuario
+**Paso 3: Navegar por la pagina**  
+ * En  la parte izquiera podras navegar en las diferentes opciones para ti.
+ * Si vas a inventario podrás distinguir los faltantes y hacer pedidos nuevos.
+ * En pedidos puedes visualizar los pedidos hechos.
+ * Puedes comprar y berificar las ventas en el apartado "Ventas".
+  
+**Paso 4: Agregar productos al carrito**
+  * Dirigete al aparado de "Ventas".
+  * Coloca lo que deseas en el buscador "Buscara Articulo".
+  * Especifica la cantidad que se desea comprar.
+  * Pulsa "Agregar".
 
-Haz clic en "Regístrate".
-Completa el formulario con: nombre completo, correo electrónico, contraseña.
-Verifica que los datos sean correctos y haz clic en “Registrarse”.
-Recibirás un correo de confirmación (si aplica).
-Paso 3: Inicio de sesión
+**Paso 5: Revisar y modificar el carrito**
+   * Haz cli en el apartado "Ventas".
+   * En este tendras una lista de los productos agregados al carrito.
+   * Podrás Cambiar la cantidad de producto o eliminarlo.
+   * Sabras la cantidad total a pagar y el precio de cada artículo.
 
-En la página principal, haz clic en “Iniciar sesión”.
-Introduce tu correo y contraseña.
-Si los datos son correctos, accederás al panel de usuario.
-Paso 4: Navegar por el catálogo
+**Paso 6: Realizar una compra**
+  * Desde el apartado "Ventas" podras realizar tu pagó.
+  * Coloca que tipo de cliente eres.
+  * Especifica tu metodo de pago
+  * Haz clic en "Finalizar y Cobrar.
+  * Te llegara una notificación de compra.
 
-Desde el menú superior, selecciona “Catálogo”.
-Filtra los productos por categoría, talla, color o precio.
-Haz clic sobre un producto para ver su ficha detallada.
-Paso 5: Agregar productos al carrito
+**Paso 7: Consultar tus pedidos**
+  * Haga Clic en "Pedidos"
+  * Varas una lista de los pedidos registrados.
 
-En la ficha del producto, selecciona la talla y cantidad.
-Presiona el botón “Agregar al carrito”.
-Aparecerá una notificación indicando que el producto fue agregado.
-Paso 6: Revisar y modificar el carrito
+**Paso 8: Cerrar sesión**
+  * En la parte izquierda abajo podrás cerrar sesión 
+  
+**Guía detallada para Vendedores**
 
-Haz clic en el ícono del carrito (parte superior derecha).
-Verás una lista con todos los productos agregados.
-Puedes cambiar la cantidad o eliminar productos.
-El total se actualiza automáticamente.
-Paso 7: Realizar una compra
+**Paso 1: Ingresar al sitio web**
+  * Abre el navegador y escribe la URL del sitio web.
+  * Podras observar la pagina de inicio, donde te pedira Registrarte o Iniciar sesión segun sea tu caso.*
 
-Desde el carrito, presiona “Proceder al pago”.
-Elige o agrega una dirección de envío.
-Selecciona método de pago (tarjeta o PayPal).
-Confirma la compra.
-Recibirás un mensaje de éxito.
-Paso 8: Consultar tus pedidos
+**Paso 2: Registrar un nuevo usuario**
+   * Haga Clic en registar Nuevo
+   * Complete el formulario con lo solicitado en este.
+   * Haga clic en “Registrarse”.
+  
+**Paso 3: Inicio de sesión**
+   * En la página principal, haga clic en “Iniciar sesión”.
+   * Complete lo pedido.
 
-En el menú, selecciona “Mis pedidos”.
-Verás un historial con los pedidos realizados, su fecha, estado y total.
-Paso 9: Actualizar tu perfil
+**Paso 4: Navegar por la pagina**
+   * En  la parte izquiera podras navegar en las diferentes opciones para ti.
+   * Si vas a inventario podrás distinguir los faltantes y hacer pedidos nuevos.
+   * En pedidos puedes visualizar los pedidos hechos.
+   * Puedes comprar y berificar las ventas en el apartado "Ventas".
+  
+**Paso 5: Agregar nuevos productos**
+  * Dirigete al aparado de "Inventario".
+  * Coloca lo que deseas agregar en "Nuevo Producto".
+  * Especifica tu nuevo producto.
+  * Pulsa "Agregar".
 
-Haz clic en “Perfil”.
-Desde ahí puedes modificar tus datos personales, cambiar tu contraseña o gestionar direcciones de envío.
-Paso 10: Cerrar sesión
+**Paso 6: Consultar tus pedidos**
+  * Haga Clic en "Pedidos"
+  * Varas una lista de los pedidos registrados.
 
-Desde el menú superior, haz clic en “Cerrar sesión” para salir del sistema de forma segura.
-Esta guía asegura una experiencia clara y accesible para todos los usuarios que interactúan con la tienda en línea de Lugavi MX.
+**Paso 7: Cerrar sesión**
+  * En la parte izquierda abajo podrás cerrar sesión 
 
-Guía detallada para usuarios (Administrador)
-Esta sección describe el flujo de trabajo para el administrador del sistema Lugavi MX, encargado de gestionar productos, pedidos, usuarios y generar reportes.
+*Guias Proporcionadas para un mejor uso de la aplicacion web*
 
-Paso 1: Iniciar sesión como administrador
+## **Flujo de procesos:**  
 
-Accede al sitio web de Lugavi MX.
-Introduce el correo y contraseña de administrador previamente asignados.
-Serás redirigido al panel administrativo si las credenciales son válidas.
-Paso 2: Acceder al panel de administración
-
-Desde el menú, selecciona la opción “Panel de control” o “Administrador”.
-Verás un tablero con accesos rápidos a módulos clave: productos, pedidos, usuarios, estadísticas.
-Paso 3: Gestión de productos
-
-Ir a la sección “Artículos” o “Productos”.
-Acciones disponibles:
-Crear nuevo artículo (vestido): ingresar nombre, descripción, talla, precio, stock, categoría, imagen.
-Editar artículo existente.
-Eliminar artículos.
-Filtrar y buscar artículos por nombre o categoría.
-Paso 4: Gestión de pedidos
-
-Accede a “Pedidos”.
-Lista de pedidos ordenados por fecha o estado.
-Acciones disponibles:
-Ver detalles del pedido: cliente, artículos, monto total.
-Cambiar el estado del pedido (pendiente, enviado, entregado).
-Añadir comentarios o activar notificaciones al cliente.
-Paso 5: Gestión de usuarios (clientes)
-
-Ir a la sección “Clientes”.
-Consultar lista de usuarios registrados.
-Acciones disponibles:
-Ver historial de pedidos por cliente.
-Ver/editar información básica del cliente.
-Suspender cuentas en caso de actividad sospechosa.
-Paso 6: Consultar estadísticas
-
-Ir a la sección “Informes” o “Estadísticas”.
-Visualizar gráficas y reportes de:
-Ventas totales por mes.
-Productos más vendidos.
-Usuarios más activos.
-Estados de pedidos.
-Paso 7: Gestión del inventario
-
-Desde “Productos”, verificar stock.
-El sistema puede notificar automáticamente cuando un artículo tiene bajo inventario.
-Paso 8: Cerrar sesión
-
-Desde el menú superior, seleccionar “Cerrar sesión” para proteger el acceso administrativo.
-Esta guía proporciona al administrador una ruta clara para el uso eficiente del sistema, facilitando la operatividad de la tienda virtual de Lugavi MX.
-
-Flujo de procesos:
 Flujo de Procesos General
 
 El flujo de uso para el usuario final dentro del sistema Lugavi MX se divide en dos perfiles principales: Cliente y Administrador.
@@ -323,3 +290,10 @@ Consultar historial de pedidos por usuario.
 Estadísticas
 
 Visualiza informes de ventas, productos más vendidos, comportamiento de usuarios.
+# **Capturas de pantalla**
+**Link de Figma**
+
+https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J43oF2a5e1fdlURn-0
+
+
+
