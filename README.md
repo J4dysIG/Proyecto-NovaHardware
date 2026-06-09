@@ -291,9 +291,72 @@ Estadísticas
 
 Visualiza informes de ventas, productos más vendidos, comportamiento de usuarios.
 # **Capturas de pantalla**
-**Link de Figma**
-
+**Link de Figma** 
 https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J43oF2a5e1fdlURn-0
+
+- **Inicio de Sesión**
+  
+  ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Inicio%20de%20Sesi%C3%B3n.png)
+  
+  **Descripción:**
+  Inicio de sesión: Mensaje de bienvenida, explicacion lo que hace NovaHardware, aparatado para colocar el Usuario, contraseña y Registrase.
+
+- **Inicio**
+  
+  ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Inicio.png)
+  
+  **Descripción:**
+  Carrusel de imágenes destacadas de vestidos.
+  Menú superior fijo con accesos a: Catálogo, Mi Perfil, Mis Pedidos, Carrito, Cerrar sesión.
+
+- **Inventario**
+  
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Inventario.png)
+
+**Descripción**
+Puedes Agregar nuevos productos, eliminar, editar y actualizar Stock.
+veras una liosta de los productos y la cantidad de ellos disponible.
+
+- **Pedidos**
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Pedidos.png)
+
+**Descripción**
+Puedes ver una lista de tus pedidos, agregar manualmente otros colocando provedor y fecha.
+Tienes la opción de editar los pedidos existentes y puedes copmprobar su estado.
+
+- **Ventas**
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Ventas.png)
+
+**Descripción**
+En el apartado ventas se reflejara la lista de los productos que deseas comprar.
+Puedes buscar los productor existentes para realizar un pedido.
+En este mismo lugar puedes pagar el total de tus productos seleccionados teniendo a la vista un desgloce de precios y el precio final a pagar.
+Tienes diferentes opciones de pago y puedes comprar colocando que tipo de cliente eres.
+
+- **Usuarios**
+  
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/U.png)
+
+**Descripción**
+Puedes observar los difrentes tipos de usuarios, puedes ver quienes son y su actividad reciente.
+
+- **Reportes**
+  
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Reportes.png)
+
+**Descripción**
+Tienes la opción de exportar tu pdf.
+Puedes observar las estadisticas de venta de los ultimos dias, el valor del inventario y los pedidos pendientes.
+
+- **Configuración**
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Configuración.png)
+
+**Descripción**
+Puedes cambiar el tipo de moneda y cuanto iva se tiene que cobrar.
+
 
 
 
