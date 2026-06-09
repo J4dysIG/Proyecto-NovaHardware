@@ -226,16 +226,16 @@
 *Guias Proporcionadas para un mejor uso de la aplicacion web*
 
 ## **Flujo de procesos:**  
+
 **Flujo de Procesos General**
 
-El flujo de uso para el usuario final dentro del sistema Lugavi MX se divide en dos perfiles principales: Cliente y Administrador.
+El flujo de uso para el usuario final se divide en dos perfiles principales: Vendedor y Administrador.
 
 -   **Cliente:**
-    -   Login → Catálogo → Carrito → Pago → Pedido → Confirmación por correo
+    -   Login → inicio → Inventario → Pedidos → Ventas → Configuracion → Cerrar sesión 
         
 -   **Administrador:**
-    -   Gestión de recursos del sistema (clientes, pedidos, artículos).
-        
+    -  Login → inicio → Inventario → Pedidos → Ventas → Usuarios → Reportes → Configuracion → Cerrar sesión 
 
 **Flujos de Procesos Detallados por Funcionalidad**
   
