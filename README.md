@@ -90,6 +90,12 @@
 **Arquitectura del Sistema**
 
 # **4. Diagramas de Casos de Uso**
+*Inicio de Sesión*
+![](
+*Gestion de Catalago*
+![](
+*Edición de perfiles*
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/Captura%20de%20pantalla%202026-06-08%20173802.png)
 
 # **5. Descripción de Casos de Uso**
 
