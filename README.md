@@ -226,70 +226,90 @@
 *Guias Proporcionadas para un mejor uso de la aplicacion web*
 
 ## **Flujo de procesos:**  
-
-Flujo de Procesos General
+**Flujo de Procesos General**
 
 El flujo de uso para el usuario final dentro del sistema Lugavi MX se divide en dos perfiles principales: Cliente y Administrador.
 
-Cliente:
+-   **Cliente:**
+    -   Login → Catálogo → Carrito → Pago → Pedido → Confirmación por correo
+        
+-   **Administrador:**
+    -   Gestión de recursos del sistema (clientes, pedidos, artículos).
+        
 
-Login → Catálogo → Carrito → Pago → Pedido → Confirmación por correo
-Administrador:
+**Flujos de Procesos Detallados por Funcionalidad**
+  
+**A. Cliente (Vendedor)**  
+  
+**Inicio de sesión o registro**  
+  
+* El usuario accede al sitio web.  
+* Si ya tiene cuenta: ingresa usuario y contraseña.  
+* Si es nuevo: completa el formulario de registro.  
+  
+**Inicio**  
+  
+* Navega por la página principal o ingresa a cualquiera de los aparatados de la parte izquierda".  
+* Utiliza filtros para buscar en el sistema el objeto deseado.    
+* Utiliza la opción "Nuevo Producto" para agregar un nuevo producto a el catalogo del inventario.
 
-Gestión de recursos del sistema (clientes, pedidos, artículos).
-Flujos de Procesos Detallados por Funcionalidad
+**Gestión Inventario**  
 
-A. Cliente (comprador)
+* Muestra una lista de objetos ya existentes con su respectivo precio, nombre, stock y otras caracteristicas unicas.
+* En el aparado de "Nuevo producto" puedes agregar un nuevo producto.
+* Tienes la opcion de filtrar los objetos para encontrar el deseado.
 
-Inicio de sesión o registro
+**Pedidos**
 
-El usuario accede al sitio web.
-Si ya tiene cuenta: ingresa correo y contraseña.
-Si es nuevo: completa el formulario de registro.
-Exploración del catálogo
+* Puedes ver los pedidos que tienes pendientes y los anteriores.
 
-Navega por la página principal o ingresa al menú "Catálogo".
-Utiliza filtros para buscar por talla, precio, color o categoría.
-Visualiza productos con imagen, descripción, precio y disponibilidad.
-Gestión del carrito de compras
+**Ventas**
 
-Agrega uno o varios productos.
-Visualiza el carrito: puede aumentar/disminuir cantidades o eliminar artículos.
-El sistema actualiza el total en tiempo real.
-Confirmación de pedido
+* Puedes comprar mas objetos para tu negocio
+* Tienes la opcion de filtrar lo objetos
+* Cuentas con un buscador para que sea mas facil encontrar lo que necesitas.
+* En el mismo apartado puedes ver la lista de los productos que compraras y un desglose de los precios.
+* Tienes diferentes metodos de pago.
+  
+**Usuarios**
 
-Revisa el resumen del carrito.
-Selecciona una dirección de envío (existente o nueva).
-Elige un método de pago: tarjeta o PayPal.
-Pago y finalización
+* Solo puedes ver los diferentes tipos de ususario.
+  
+**Reportes**
 
-Completa los datos necesarios para el pago.
-Confirma la compra.
-Recibe una notificación por correo con el resumen del pedido.
-Seguimiento y perfil
+* Puedes divisar tus estadisticas y pedidos pendientes.
 
-Accede a "Mis Pedidos" para revisar el estado de cada orden.
-Desde su perfil puede cambiar contraseñas, actualizar datos o gestionar direcciones.
-B. Administrador (gestión del sistema)
+**configuracion**
 
-Inicio de sesión administrativo
+*Solo puedes configurar la moneda con la que deseas pagar.
+  
+**B. Administrador (Administrador)**  
+  
+**Inicio de sesión**  
+  
+* Accede con cuenta de administrador (nivel de acceso).  
+  
+**Gestión de productos**  
+  
+* CRUD de artículos (agregar, editar, eliminar, actualizar stock).  
+  
+**Gestión de pedidos**  
+  
+* Visualiza pedidos recibidos, su estado y detalles.  
+* Cambia el estado de un pedido: recibido, en proceso, enviado, entregado.  
+* Envía notificaciones al cliente sobre cambios en su pedido.
+* Utiliza la opcion de "Nuevo pedido" para agregar manualmente un pedido.   
+  
+**Gestión de usuarios**  
 
-Accede con cuenta de administrador (nivel de acceso).
-Gestión de productos
+* Ver listado de los usuarios.  
 
-CRUD de artículos (agregar, editar, eliminar, actualizar stock).
-Gestión de pedidos
-
-Visualiza pedidos recibidos, su estado y detalles.
-Cambia el estado de un pedido: recibido, en proceso, enviado, entregado.
-Envía notificaciones al cliente sobre cambios en su pedido.
-Gestión de usuarios
-
-Ver listado de clientes.
-Consultar historial de pedidos por usuario.
-Estadísticas
-
-Visualiza informes de ventas, productos más vendidos, comportamiento de usuarios.
+  
+**Estadísticas**  
+  
+* Visualiza informes de ventas, productos más vendidos.
+  
+  
 # **Capturas de pantalla**
 **Link de Figma** 
 https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J43oF2a5e1fdlURn-0
