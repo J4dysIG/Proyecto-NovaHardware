@@ -358,5 +358,25 @@ Puedes observar las estadisticas de venta de los ultimos dias, el valor del inve
 Puedes cambiar el tipo de moneda y cuanto iva se tiene que cobrar.
 
 
+## **10. Referencias y Recursos**
+
+Para el desarrollo y buen funcionamiento de *NovaHardware* nos apoyamos de muy buenas herramientras y recursos academicos.
+ 
+*Recursos Tecnológicos*
+
+- [Node.js](https://nodejs.org/) 
+- [Express.js](https://expressjs.com/) 
+- [PostgreSQL](https://www.postgresql.org/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+**Herramientas de Desarrollo**
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitHub (Repositorio NovaHardware)](https://github.com/J4dysIG/Proyecto-NovaHardware)
+- [PostgreSQL](https://www.postgresql.org/)
+
+**Prototipado y Diseño**
+
+- [Figma - Prototipo NovaHardware](https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J43oF2a5e1fdlURn-0)
 
 
