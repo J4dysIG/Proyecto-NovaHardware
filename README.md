@@ -15,7 +15,7 @@
 * *Inzunza Gómez Jesús Daniel*
 * *Urias Ruiz Ernesto*
 
-# **1.Introduccion.**  
+# **1. Introducción.**  
   
 **Descripción general:** NovaHardware Es una plataforma digital de gestión de inventario inteligente orientada a el manejo de pequeños y medianos negocios de hardware (Componentes de computación). Su objetivo principal es eliminar el error humano y la falta de stock mediante la automatización y el análisis de datos en tiempo real. La empresa se diferencia por ofrecer una interfaz limpia y robusta, capaz de procesar miles de SKUs (códigos de artículo) sin complicaciones técnicas.
   
@@ -23,7 +23,7 @@
   
 **Cobertura:** El sistema logra cubrir las necesidades del registro e inicio de sesión para los usuarios, cuenta con una administración eficiente, eficaz y moderna para los productos disponibles que se encuentren en la empresa, cuenta con un apartado de pagos y pedidos donde puedes consultar toda la información necesaria, esta incluye un seguimiento de envíos adecuado, contamos con notificaciones de bajo stock y reportes en tiempo real.
 
-# **2.Resumen del Sistema**
+# **2. Resumen del Sistema**
 
 **Objetivo general:** Desarrollar una plataforma digital de gestor de inventario para la empresa NovaHardware proporcionando una interfaz intuitiva, eficaz y moderna, logrando así transacciones ágiles y un seguimiento preciso posicionando a la empresa como un referente de modernidad y fiabilidad.
 
@@ -57,12 +57,12 @@
 **Funcionales:**    
 - * El sistema deberá permitir a los usuarios iniciar sesión ingresando su id y contraseña, validándolos en la base de datos.
 - * El sistema debe permitir la creación de nuevos perfiles.
-- * El sistema debe validar en tiempo real que el formato de las credenciales sea valido y que los campos no estén vacíos antes de enviar la solicitud al servidor.
+- * El sistema debe validar en tiempo real que el formato de las credenciales sea válido y que los campos no estén vacíos antes de enviar la solicitud al servidor.
 - * El sistema debe de notificar al usuario mediante un mensaje un error claro cuando las credenciales sean incorrectas.
 - * El sistema deberá de contar con un menú capaz de mostrar u ocultar opciones según los permisos del usuario.
 - * El sistema deberá integrar una barra de búsqueda rápida para localizar módulos específicos sin navegar por submenús.
 - * El sistema deberá contar con un acceso visible para gestionar la cuenta del usuario y salir del sistema de forma segura.
-- * El sistema deberá contar con un catálogo de los pruductos de forma detallada.
+- * El sistema deberá contar con un catálogo de los productos de forma detallada.
 - * El sistema debe alertar cuando un artículo tenga poco stock.
 - * El sistema deberá de ter botones para finalizar venta.
 - * El sistema deberá de dejar poner el método de pago.
@@ -94,7 +94,7 @@
 
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20173745.png)
 
-*Gestion de Catálago*
+*Gestion de Catálogo*
 
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20173752.png)
 
@@ -132,10 +132,10 @@
 **Pasos detallados de la instalación:**
 
 * **Requisitos de Software:**
-* Node.js: Asegúrase de tener la versión mas actualiozada de Node.js. 
+* Node.js: Asegúrese de tener la versión más actualizada de Node.js. 
 * Express.js: Express.js se instalará posteriormente usando npm 
-* PostgreSQL: Asegurese de contar con la versión mas actualizda de posgretSQL
-* Navegador: Utiliza el navegador de tu preferencia pero con la version mas actualizada que tenga.
+* PostgreSQL: Asegúrese de contar con la versión más actualizada de posgretSQL
+* Navegador: Utiliza el navegador de tu preferencia, pero con la versión más actualizada que tenga.
   
 * **Requisitos de Hardware:**
 * RAM: Tu sistema debe contar con al menos 4GB de RAM.
@@ -151,34 +151,34 @@
 
  **Paso 1: Ingresar al sitio web**
 * Abre el navegador y escribe la URL del sitio web.
-* Podras observar la pagina de inicio, donde te pedira Registrarte o Iniciar sesión segun sea tu caso.
+* Podrás observar la página de inicio, donde te pedirá Registrarte o Iniciar sesión segun sea tu caso.
 
 **Paso 2: Inicio de sesión**
   * En la página principal, haga clic en “Iniciar sesión”.
   * Complete lo pedido.
 
-**Paso 3: Navegar por la pagina**  
- * En  la parte izquiera podras navegar en las diferentes opciones para ti.
+**Paso 3: Navegar por la página**  
+ * En la parte izquierda podras navegar en las diferentes opciones para ti.
  * Si vas a inventario podrás distinguir los faltantes y hacer pedidos nuevos.
  * En pedidos puedes visualizar los pedidos hechos.
- * Puedes comprar y berificar las ventas en el apartado "Ventas".
+ * Puedes comprar y verificar las ventas en el apartado "Ventas".
   
 **Paso 4: Agregar productos al carrito**
-  * Dirigete al aparado de "Ventas".
+  * Dirígete al aparado de "Ventas".
   * Coloca lo que deseas en el buscador "Buscara Articulo".
   * Especifica la cantidad que se desea comprar.
   * Pulsa "Agregar".
 
 **Paso 5: Revisar y modificar el carrito**
-   * Haz cli en el apartado "Ventas".
-   * En este tendras una lista de los productos agregados al carrito.
+   * Haz clic en el apartado "Ventas".
+   * En este tendrás una lista de los productos agregados al carrito.
    * Podrás Cambiar la cantidad de producto o eliminarlo.
-   * Sabras la cantidad total a pagar y el precio de cada artículo.
+   * Sabrás la cantidad total a pagar y el precio de cada artículo.
 
 **Paso 6: Realizar una compra**
-  * Desde el apartado "Ventas" podras realizar tu pagó.
+  * Desde el apartado "Ventas" podrás realizar tu pagó.
   * Coloca que tipo de cliente eres.
-  * Especifica tu metodo de pago
+  * Especifica tu método de pago
   * Haz clic en "Finalizar y Cobrar.
   * Te llegara una notificación de compra.
 
@@ -193,10 +193,10 @@
 
 **Paso 1: Ingresar al sitio web**
   * Abre el navegador y escribe la URL del sitio web.
-  * Podras observar la pagina de inicio, donde te pedira Registrarte o Iniciar sesión segun sea tu caso.*
+  * Podrás observar la página de inicio, donde te pedirá Registrarte o Iniciar sesión según sea tu caso.*
 
 **Paso 2: Registrar un nuevo usuario**
-   * Haga Clic en registar Nuevo
+   * Haga Clic en registrar Nuevo
    * Complete el formulario con lo solicitado en este.
    * Haga clic en “Registrarse”.
   
@@ -205,13 +205,13 @@
    * Complete lo pedido.
 
 **Paso 4: Navegar por la pagina**
-   * En  la parte izquiera podras navegar en las diferentes opciones para ti.
+   * En la parte izquierda podrás navegar en las diferentes opciones para ti.
    * Si vas a inventario podrás distinguir los faltantes y hacer pedidos nuevos.
    * En pedidos puedes visualizar los pedidos hechos.
-   * Puedes comprar y berificar las ventas en el apartado "Ventas".
+   * Puedes comprar y verificar las ventas en el apartado "Ventas".
   
 **Paso 5: Agregar nuevos productos**
-  * Dirigete al aparado de "Inventario".
+  * Dirígete al aparado de "Inventario".
   * Coloca lo que deseas agregar en "Nuevo Producto".
   * Especifica tu nuevo producto.
   * Pulsa "Agregar".
@@ -223,7 +223,7 @@
 **Paso 7: Cerrar sesión**
   * En la parte izquierda abajo podrás cerrar sesión 
 
-*Guias Proporcionadas para un mejor uso de la aplicacion web*
+*Guías Proporcionadas para un mejor uso de la aplicación web*
 
 ## **Flujo de procesos:**  
 
@@ -232,10 +232,10 @@
 El flujo de uso para el usuario final se divide en dos perfiles principales: Vendedor y Administrador.
 
 -   **Cliente:**
-    -   Login → inicio → Inventario → Pedidos → Ventas → Configuracion → Cerrar sesión 
+    -   Login → inicio → Inventario → Pedidos → Ventas → Configuración → Cerrar sesión 
         
 -   **Administrador:**
-    -  Login → inicio → Inventario → Pedidos → Ventas → Usuarios → Reportes → Configuracion → Cerrar sesión 
+    -  Login → inicio → Inventario → Pedidos → Ventas → Usuarios → Reportes → Configuración → Cerrar sesión 
 
 **Flujos de Procesos Detallados por Funcionalidad**
   
@@ -255,9 +255,9 @@ El flujo de uso para el usuario final se divide en dos perfiles principales: Ven
 
 **Gestión Inventario**  
 
-* Muestra una lista de objetos ya existentes con su respectivo precio, nombre, stock y otras caracteristicas unicas.
+* Muestra una lista de objetos ya existentes con su respectivo precio, nombre, stock y otras características únicas.
 * En el aparado de "Nuevo producto" puedes agregar un nuevo producto.
-* Tienes la opcion de filtrar los objetos para encontrar el deseado.
+* Tienes la opción de filtrar los objetos para encontrar el deseado.
 
 **Pedidos**
 
@@ -265,21 +265,21 @@ El flujo de uso para el usuario final se divide en dos perfiles principales: Ven
 
 **Ventas**
 
-* Puedes comprar mas objetos para tu negocio
-* Tienes la opcion de filtrar lo objetos
-* Cuentas con un buscador para que sea mas facil encontrar lo que necesitas.
+* Puedes comprar más objetos para tu negocio
+* Tienes la opción de filtrar lo objetos
+* Cuentas con un buscador para que sea más fácil encontrar lo que necesitas.
 * En el mismo apartado puedes ver la lista de los productos que compraras y un desglose de los precios.
-* Tienes diferentes metodos de pago.
+* Tienes diferentes métodos de pago.
   
 **Usuarios**
 
-* Solo puedes ver los diferentes tipos de ususario.
+* Solo puedes ver los diferentes tipos de usuario.
   
 **Reportes**
 
-* Puedes divisar tus estadisticas y pedidos pendientes.
+* Puedes divisar tus estadísticas y pedidos pendientes.
 
-**configuracion**
+**configuración**
 
 *Solo puedes configurar la moneda con la que deseas pagar.
   
@@ -298,7 +298,7 @@ El flujo de uso para el usuario final se divide en dos perfiles principales: Ven
 * Visualiza pedidos recibidos, su estado y detalles.  
 * Cambia el estado de un pedido: recibido, en proceso, enviado, entregado.  
 * Envía notificaciones al cliente sobre cambios en su pedido.
-* Utiliza la opcion de "Nuevo pedido" para agregar manualmente un pedido.   
+* Utiliza la opción de "Nuevo pedido" para agregar manualmente un pedido.   
   
 **Gestión de usuarios**  
 
@@ -319,7 +319,7 @@ https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J
   ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Inicio%20de%20Sesi%C3%B3n.png)
   
   **Descripción:**
-  Inicio de sesión: Mensaje de bienvenida, explicacion lo que hace NovaHardware, aparatado para colocar el Usuario, contraseña y Registrase.
+  Inicio de sesión: Mensaje de bienvenida, explicación lo que hace NovaHardware, aparatado para colocar el Usuario, contraseña y Registrase.
 
 - **Inicio**
   
@@ -335,24 +335,24 @@ https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J
 
 **Descripción**
 Puedes Agregar nuevos productos, eliminar, editar y actualizar Stock.
-veras una liosta de los productos y la cantidad de ellos disponible.
+veras una lista de los productos y la cantidad de ellos disponible.
 
 - **Pedidos**
 
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Pedidos.png)
 
 **Descripción**
-Puedes ver una lista de tus pedidos, agregar manualmente otros colocando provedor y fecha.
-Tienes la opción de editar los pedidos existentes y puedes copmprobar su estado.
+Puedes ver una lista de tus pedidos, agregar manualmente otros colocando proveedor y fecha.
+Tienes la opción de editar los pedidos existentes y puedes comprobar su estado.
 
 - **Ventas**
 
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Ventas.png)
 
 **Descripción**
-En el apartado ventas se reflejara la lista de los productos que deseas comprar.
-Puedes buscar los productor existentes para realizar un pedido.
-En este mismo lugar puedes pagar el total de tus productos seleccionados teniendo a la vista un desgloce de precios y el precio final a pagar.
+En el apartado ventas se reflejará la lista de los productos que deseas comprar.
+Puedes buscar los productos existentes para realizar un pedido.
+En este mismo lugar puedes pagar el total de tus productos seleccionados teniendo a la vista un desglose de precios y el precio final a pagar.
 Tienes diferentes opciones de pago y puedes comprar colocando que tipo de cliente eres.
 
 - **Usuarios**
@@ -360,7 +360,7 @@ Tienes diferentes opciones de pago y puedes comprar colocando que tipo de client
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/U.png)
 
 **Descripción**
-Puedes observar los difrentes tipos de usuarios, puedes ver quienes son y su actividad reciente.
+Puedes observar los diferentes tipos de usuarios, puedes ver quiénes son y su actividad reciente.
 
 - **Reportes**
   
@@ -368,19 +368,19 @@ Puedes observar los difrentes tipos de usuarios, puedes ver quienes son y su act
 
 **Descripción**
 Tienes la opción de exportar tu pdf.
-Puedes observar las estadisticas de venta de los ultimos dias, el valor del inventario y los pedidos pendientes.
+Puedes observar las estadísticas de venta de los últimos días, el valor del inventario y los pedidos pendientes.
 
 - **Configuración**
 
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Configuración.png)
 
 **Descripción**
-Puedes cambiar el tipo de moneda y cuanto iva se tiene que cobrar.
+Puedes cambiar el tipo de moneda y cuanto IVA se tiene que cobrar.
 
 
 ## **10. Referencias y Recursos**
 
-Para el desarrollo y buen funcionamiento de *NovaHardware* nos apoyamos de muy buenas herramientras y recursos academicos.
+Para el desarrollo y buen funcionamiento de *NovaHardware* nos apoyamos de muy buenas herramientas y recursos académicos.
  
 *Recursos Tecnológicos*
 
