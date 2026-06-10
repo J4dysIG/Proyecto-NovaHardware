@@ -11,7 +11,7 @@
 * *Barraza Chavez Diego Alejandro*
 * *Barreras Castro María José*
 * *Calleros Valdenegro José Adrián*
-* *Gonzales Aguilar Natalia Berenice*
+* *González Aguilar Natalia Berenice*
 * *Inzunza Gómez Jesús Daniel*
 * *Urias Ruiz Ernesto*
 
