@@ -113,6 +113,8 @@
 
 # **6. Diagrama Entidad-Relación**
 
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/commit/f8614ef63316b49c5aba6b3bb5d576ec36d1e444)
+
 # **7. Interfaz Figma**
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20171336.png)
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Captura%20de%20pantalla%202026-06-08%20171350.png)
