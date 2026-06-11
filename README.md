@@ -303,7 +303,7 @@ El flujo de uso para el usuario final se divide en dos perfiles principales: Ven
 
 **configuración**
 
-*Solo puedes configurar la moneda con la que deseas pagar.
+* Solo puedes configurar la moneda con la que deseas pagar.
   
 **B. Administrador (Administrador)**  
   
@@ -413,11 +413,11 @@ El modelo de base de datos aqui presentado se ha realizado en PostgreSQL
   
 **Diagrama entidad-relación:** 
 
- 
+ ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/Diagrama%20Entidad-Relacion.jpeg)
 
 Las entidades clave incluyen:
 
--   Usuarios
+- Usuarios.
 - Componentes
 - Carrito-Compras.
 - Pedidos-Ventas.
@@ -433,65 +433,60 @@ Las entidades clave incluyen:
    
    **Descripción de las Entidades y Relaciones:**
 
--   **Cliente:**
+-   **Usuarios:**
     -   Atributos: Información personal del cliente.
+    -   Relaciones: Pedidos-Ventas.
         
-    -   Relaciones: Carrito de Compras (composición 1:1), Pedido (asociación 1:N).
-        
--   **Carrito de Compras:**
-    -   Atributos: Identificador del carrito.
-    -   Relaciones: Cliente (composición 1:1), Artículo (asociación N:M), Pedido (asociación 1:1).
-        
--   **Pedido:**
-    -   Atributos: Fecha, estado del pedido.
-    -   Relaciones: Cliente (asociación 1:N), Detalle de Pedido (composición 1:1), Carrito de Compras (asociación 1:1), Dirección de Envío (composición 1:1), Notificaciones (dependencia).
-        
--   **Artículo:**
-    -   Atributos: Información del producto (vestido).
-        
-    -   Relaciones: Categoría (asociación 1:N), Carrito de Compras (asociación N:M), Detalle de Pedido (asociación 1:N).
-        
--   **Administrador:**
-    -   Atributos: Información del usuario administrador.
-        
-    -   Relaciones: Cliente (asociación 1:1), Pedido (asociación 1:1).
-        
--   **Detalle de Pedido:**
-    -   Atributos: Cantidad, precio, subtotal del artículo en un pedido.
-        
-    -   Relaciones: Pedido (composición 1:1), Artículo (asociación 1:N).
-        
--   **Método de Pago:**
-    -   Atributos: Información del método de pago.
-        
-    -   Relaciones: Pedido (asociación 1:N).
-        
--   **Dirección de Envío:**
-    -   Atributos: Datos de la dirección del cliente.
-        
-    -   Relaciones: Cliente (asociación 1:N), Pedido (composición 1:1).
-        
--   **Categoría:**
-    -   Atributos: Tipo de artículo.
-        
-    -   Relaciones: Artículo (asociación 1:N).
-        
+-   **Componentes:**
+    -   Atributos: Información de stcok.
+    -   Relaciones: Detalles de pedidos.
+      
+-   **Carrito_Compras:**
+    -   Atributos: Articulos a comprar.
+    -   Relaciones: Usuario, Componentes.
+ 
+-   **Pedidos-Ventas**
+    -   Atributos: Información sobre cada pedido.
+    -   Relaciones: Usuario, Detalle-pedido.
+      
+-   **Detalle-Pedido:**
+    -   Atributos: Información sobre el pedido.
+    -   Relaciones: Usuario, Pedidos-ventas.
+
 -   **Notificaciones:**
-    -   Atributos: Mensajes del sistema.
-        
-    -   Relaciones: Pedido (dependencia)
+    -   Atributos: Notificar al usuario.
+    -   Relaciones: Usuario, Pedido.
+ 
+-   **Configuracion-Sistema:**
+    -   Atributos: Configurar el sistema.
+    -   Relaciones: Notificaciones.
+
+-   **Roles:**
+    -   Atributos: Identificar tu rol
+    -   Relaciones: Usuario.
+
 
 **Consultas Principales a Base de Datos:**  
 
- 
-
  - Clientes
- 
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/ventas.jpg)
+
 - Poductos
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/productos.jpg)
+
 - Provedores
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/Proveedores.jpg)
+  
 - Usuarios
+
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/Usuarios.jpg)
+
 - Ventas
 
+![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/ventas.jpg)
 
 ## 10. Seguridad
 
@@ -508,171 +503,14 @@ NovaHardware esta completamente comprometida con la seguridad de sus usuarios y 
   - Interfaz de administración protegida por sesión activa.
 
 - **Validación de entradas:**  
-  - Prevención de inyecciones y datos maliciosos.
+  - Prevención de infecciones y datos maliciosos.
 
 - **Protección de información sensible:**  
   - Conexión a base de datos protegida y segura.
 
-- **Manejo de errores y logs:**  
-  - Captura de errores y logs detallados en el backend.
+- **Manejo de errores:**  
+  - Captura de errores.
  
-## 8. Pruebas
-# Informe de Pruebas y Evaluación de Código y Métricas de Calidad
-
-### Objetivo del informe
-
-Documentar el proceso de pruebas, evaluación de código y análisis de métricas de calidad del sistema **Lugavi MX**, una plataforma web de comercio electrónico para venta de vestidos de gala y cocktail.
-
-### Alcance de las pruebas
-
-Se evaluaron los siguientes módulos:
-- Registro e inicio de sesión
-- Catálogo de productos y filtros
-- Carrito de compras
-- Proceso de pago (tarjeta/PayPal)
-- Perfil del usuario
-- Gestión de pedidos (cliente y administrador)
-- Panel administrativo
-
-Se realizaron 22 casos de prueba enfocados en validaciones, experiencia de usuario y seguridad.
-
-### Conclusiones clave
-
-- Estructura funcional sólida y flujos completos.
-- 7 defectos detectados; 5 corregidos.
-- Riesgos críticos: validaciones incompletas, errores poco visibles, problemas responsive.
-- Listo para piloto controlado, no aún para entorno productivo final.
-
----
-
-## Pruebas Realizadas
-
-### 3.1 Tipos de Pruebas Ejecutadas
-
-| Tipo de Prueba  | Descripción |
-|-----------------|-------------|
-| Unitaria        | Validación de funciones como `calcularSubtotal()`, `validarSesion()`. |
-| Integración     | Flujo desde login hasta confirmación de pedido. |
-| Sistema         | Evaluación end-to-end con roles de cliente y administrador. |
-| Rendimiento     | Evaluación del tiempo de respuesta bajo múltiples acciones. |
-| Usabilidad      | Claridad visual, navegación, experiencia móvil. |
-| Seguridad       | Validación de accesos protegidos y autenticación. |
-
-### Herramientas utilizadas
-
-- Postman
-- DevTools (Chrome y Firefox)
-- MongoDB Compass
-- VS Code + consola de Node.js
-- Flatpickr
-
-### Cobertura de Pruebas
-
-- **Cobertura estimada:** 90%
-- Funcionalidades probadas:
-  - Login y registro
-  - Catálogo y filtros
-  - Carrito y pagos
-  - Perfil y pedidos
-  - Administración
-
-| Estado de la Prueba | Cantidad | Descripción |
-|---------------------|----------|-------------|
-| ✅ Exitosas          | 18       | El sistema respondió conforme a los requisitos esperados |
-| ❌ Fallidas          | 3        | Validaciones débiles, feedback inexistente |
-| ⚠️ Omitidas          | 1        | Prueba en pantallas ≤ 320px (limitación técnica) |
-
----
-
-## Resultados de las Pruebas
-
-### Defectos Encontrados
-
-- **Total de defectos:** 7  
-  - Corregidos: 5  
-  - Pendientes: 2
-
-#### Por severidad:
-
-| Severidad | Descripción del Error                                           | Cantidad |
-|-----------|------------------------------------------------------------------|----------|
-| Crítico   | Botón “Reservar ahora” no responde al primer clic               | 1        |
-| Alto      | Contraseñas débiles aceptadas sin validación                    | 1        |
-| Medio     | Falta mensaje en login fallido / Inputs permiten caracteres no válidos | 2        |
-| Bajo      | Problemas de visualización responsive (footer, imagen perfil)   | 3        |
-
-#### Por módulo:
-
-| Módulo               | Nº Errores | Descripción                            |
-|----------------------|------------|----------------------------------------|
-| Carrito / Pago       | 1          | Botón de reserva inactivo              |
-| Registro             | 2          | Validaciones incompletas               |
-| Inicio de Sesión     | 1          | Falta de mensajes de error             |
-| Diseño responsive    | 2          | Problemas visuales en móvil            |
-| Perfil de Usuario    | 1          | Imagen de perfil no actualizable       |
-
-#### Tiempo promedio de resolución
-
-- **Promedio general:** 1.5 horas
-- Mínimo: 45 minutos (CSS)
-- Máximo: 3 horas (lógica de botón)
-
-### Evidencias
-
-#### Capturas de pantalla
-
-1. **Botón “Reservar ahora”** no responde.
-2. **Validación fallida en registro**, acepta contraseñas inseguras.
-3. **Diseño descuadrado** en vista móvil.
-
-#### Logs de errores
-
-{
-  "error": "Contraseña demasiado corta",
-  "input": "abc",
-  "endpoint": "/signup",
-  "timestamp": "2025-05-23T18:42:10Z"
-}
-
-
----
-
-## Análisis y Recomendaciones
-
-### Tendencias
-
-Durante las diferentes iteraciones de desarrollo y pruebas del sistema **Lugavi MX**, se evidenció una disminución progresiva en la cantidad y gravedad de los defectos detectados:
-
-- En la primera ronda de pruebas se registraron errores estructurales y de validación básica.
-- En iteraciones posteriores, las fallas más comunes se redujeron, especialmente en flujos como registro, login y carrito de compras.
-- Las últimas pruebas se enfocaron en ajustes de estilo, accesibilidad y experiencia del usuario (UX).
-
-Esto demuestra una mejora en la calidad del código y del proceso de validación, aunque se identifican oportunidades de mejora para el entorno móvil.
-
-### Riesgos identificados
-
-**Riesgo**
-
-**Impacto potenial**
-
-| Riesgo                                 | Impacto Potencial                         |
-|----------------------------------------|-------------------------------------------|
-| Falta de validación robusta            | Ingreso de datos incorrectos o no seguros |
-| Ausencia de mensajes de error claros   | Confusión del usuario ante fallos         |
-| Inconsistencia visual en móviles       | Mala presentación, abandono del sitio     |
-| Botones sin retroalimentación visual   | Percepción de lentitud o fallo            |
-
-### Acciones correctivas
-
-1. Implementar validación de formularios con **Express Validator** o **Joi**.
-2. Incluir retroalimentación visual clara (alertas, mensajes, iconos).
-3. Revisar y ajustar la visualización móvil mediante diseño **responsive**.
-4. Establecer **pruebas automatizadas** con herramientas como **Jest** o **Mocha**.
-5. Refactorizar funciones redundantes en controladores y middlewares.
-6. Mantener logs detallados en el servidor y base de datos para facilitar la depuración.
-
----
-
 ## Conclusiones
 
 ### ¿Cumple el software con los requisitos de calidad?
@@ -707,5 +545,4 @@ Para el desarrollo y buen funcionamiento de *NovaHardware* nos apoyamos de muy b
 **Prototipado y Diseño**
 
 - [Figma - Prototipo NovaHardware](https://www.figma.com/design/KihWZmMrZL4ETI6zDzgbgN/Untitled?node-id=0-1&p=f&t=J43oF2a5e1fdlURn-0)
-
 
