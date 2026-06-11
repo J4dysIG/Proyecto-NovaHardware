@@ -397,7 +397,7 @@ Puedes observar las estadísticas de venta de los últimos días, el valor del i
 **Descripción**
 Puedes cambiar el tipo de moneda y cuanto IVA se tiene que cobrar.
 
-# **6. Base de Datos**  
+# **10 . Base de Datos**  
   
 **Modelo de datos:**
 El modelo de base de datos aqui presentado se ha realizado en PostgreSQL
@@ -488,7 +488,7 @@ Las entidades clave incluyen:
 
 ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/ventas.jpg)
 
-## 10. Seguridad
+## 11. Seguridad
 
 NovaHardware esta completamente comprometida con la seguridad de sus usuarios y la integridad del sistema, para ello se tomaron metidas para salvaguardar los datos de los mismos.
 
@@ -525,7 +525,7 @@ NovaHardware esta completamente comprometida con la seguridad de sus usuarios y 
 - No esta diseñado ni es recomendable el uso en un entorno de producción final, Hasta corregir detalles pequeños que este necesita.
 
 
-## **11. Referencias y Recursos**
+## **12. Referencias y Recursos**
 
 Para el desarrollo y buen funcionamiento de *NovaHardware* nos apoyamos de muy buenas herramientas y recursos académicos.
  
