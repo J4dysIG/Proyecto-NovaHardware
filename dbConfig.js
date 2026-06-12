@@ -1,13 +1,11 @@
 require('dotenv').config();
-// ── Configuración de la base de datos (no we no es ia asi me lo da el vs code) jeje───────────────────────────────────────────────────────────────
-
-const { Pool } = require("pg");
-const isProduction = process.env.NODE_ENV === 'production';
-
-const connectionString = `postgresql://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
+console.log('DATABASE_URL length:', process.env.DATABASE_URL?.length);
+console.log('Empieza con postgresql:', process.env.DATABASE_URL?.startsWith('postgresql://'));
+const { Pool } = require('pg');
 
 const pool = new Pool({
-    connectionString: isProduction ? process.env.DATABASE_URL : connectionString,
+  connectionString: process.env.DATABASE_URL,
+  ssl: { rejectUnauthorized: false }
 });
 
 module.exports = { pool };
