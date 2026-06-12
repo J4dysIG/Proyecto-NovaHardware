@@ -428,7 +428,7 @@ Las entidades clave incluyen:
 
 **Diagrama de clases:** 
 
-  FOTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+ ![](https://github.com/J4dysIG/Proyecto-NovaHardware/blob/main/public/images/IMG-20260611-WA0016.jpg)
 
    
    **Descripción de las Entidades y Relaciones:**
